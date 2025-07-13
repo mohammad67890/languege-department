@@ -8,8 +8,8 @@ const validateLogin = Joi.object({
     .required()
     .messages({
       "any.required": "شماره همراه الزامی است",
-      "string.base": "نام کاربری باید یک رشته باشد",
-      "string.empty": "نام کاربری الزامی است",
+      "string.base": "شماره همراه باید یک رشته باشد",
+      "string.empty": "شماره همراه الزامی است",
       "string.pattern.name": "شماره وارد شده صحیح نیست",
     }),
 })
